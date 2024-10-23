@@ -1,0 +1,78 @@
+Intrucciones gitlab
+
+1. clone respositorio con "Clone with HTTPS"
+
+2. clonar
+
+git clone  url_repo_Clone with HTTPS
+
+3.adicionar archivos
+
+git add .
+
+4. realizar commit
+
+git commit -m "subir archivos iniciales"
+
+5. subir archivos
+
+
+git push origin main
+
+6. Bajar archivos 
+
+git pull
+
+7. subir archivos vacios
+
+crear archivo .gitkeep
+
+.gitkeep
+
+8. En algun momento es posible que “git” le pida que se identifique:
+git config --global user.name "Your Name"
+git config --global user.email your.email@example.com
+
+9. NOTA . si usted esta trabajando online entonces puede actulizar
+su repositorio local de la siguiente manera:
+
+cree un archivo de prueba online
+git fetch (git fetch remotename)
+git merge (remotename/branchname)
+
+git pull es un atajo conveniente para realizar tanto git fetch y git
+merge en el mismo comando:
+
+git pull (git pull remotename branchname)
+Asi puede ver todos sus commits (cambios):
+git log --oneline (git log)
+
+10. TENGA EN CUENTA
+Para sincronizar un repositorio producto de un fork con respecto al
+repositorio original: Solo es necesario hacerlo una vez en la copia
+local del repositorio
+https://help.github.com/en/github/collaborating-with-issues-and-pull-
+requests/configuring-a-remote-for-a-fork
+
+git remote -v
+git remote add upstream https://github.com/jmejiagu/CursoFCII-2020-
+1.git
+git remote -v
+
+11. acciones necesarias cada vez que haya que hacer la sincroniza-
+ción:
+
+https://help.github.com/en/github/collaborating-with-issues-and-pull-
+requests/syncing-a-fork
+
+git fetch upstream
+git checkout master (Esto si usted no esta en la rama master)
+git merge upstream/master
+
+
+
+
+
+
+
+

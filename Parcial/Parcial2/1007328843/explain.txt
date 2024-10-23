@@ -1,0 +1,2 @@
+1. En el problema de los dados lanzarlos de forma simultánea o uno después de otro no cambia
+la probabilidad ya que son eventos mutuamente exclueyentes o independientes. 

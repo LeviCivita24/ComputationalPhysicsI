@@ -1,0 +1,11 @@
+!.sh
+!Documentos/*.pdf
+!Documentos/*.txt
+*.aux
+*.log
+*.out
+*.*~
+.*/
+!*.txt
+
+venv/

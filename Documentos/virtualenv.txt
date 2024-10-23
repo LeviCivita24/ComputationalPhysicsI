@@ -1,0 +1,35 @@
+1. Crear entorno virtual
+
+virtualenv name_virtual -p python_version
+
+ejemplo:
+
+virtualenv venv -p python3.7
+
+2. Activar entorno virtual
+
+source venv/bin/activate
+
+3. version de python 
+
+python --version
+
+4. Desactivar entorno virtual
+
+deactivate
+
+5. Ver librerias
+
+pip freeze
+
+6. Guardar librerias 
+
+pip freeze >requirements.txt
+
+7. Instalar librerias
+
+pip install -r requirements.txt
+
+8. Eliminar entorno virtual
+
+rm -rf name_virtualenv
